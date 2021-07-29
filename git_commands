@@ -1,0 +1,70 @@
+
+----------------------------------------------------------
+Remote Repositiory 
+
+Dev. environment
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Working Directory  +++   Stagging Area  +++   Local Area
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+if we use git add then file will be added to stagging area   --STagging
+After commit fill will be added to local area -- Local
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+Git concepts
+-----------------------------------------------------------
+
+1.git clone repo-name -> This command is used to clone git repositorie on your local machine.
+
+2.git --version -> To check installed git version on your machine
+
+3.git diff --staged -> This command used to check changes we have staged
+
+4.git log -> To check commits logs with their hash as well as Author and Date
+
+5.git diff <commit>^! ->where the ^! tells git to compare to the commit one before
+
+6.git diff <old commit> <new commit> -> Used to compare any two new commits
+
+7.git checkout branch-name -> Used to checkout branch
+
+8.git branch -> Local branch list
+
+9.git branch -a -> see the remote branches your Local Repository knows
+
+10.git merge branch-name-> Checked out master and then merge branch which u want to  --If there is no conflicts then that merge is called Fast- Forwarding merge
+
+11.git rebase master  -> rebasing just changes the point in history (the commit) your branch is based on. same like merge
+
+12.git checkout -b branch_name ->  to create and switch to our new branch
+
+13.git status -> you will get all the usual helpful instructions on how to continue.
+
+14.git rebase --continue -> Simply add the changes to the Staging Environment and then git rebase --continue. The conflict will be resolved in the commit that was just being applied.
+
+15.git rebase --abort -> As when merging, you can always stop and drop everything you've done so far 
+
+16.git fetch -> To get changes made to the Remote into your Local Repository you use git fetch.
+
+17.git stash ->  is basically a stack of changes on which you store any changes to the Working Directory.
+
+18.git stash pop -> which takes the latest change that was stashed and applies it the to the Working Directory again.
+
+19.git stash apply -> If you want to keep the stashed changes, you can use git stash apply, which doesn't remove them from the stash before applying them.
+
+20.git stash list -> To inspect you current stash you can use git stash list to list the individual entries, 
+
+21.git stash show -> to show the changes in the latest entry on the stash.
+
+22.git cherry-pick -> Whenever you want to just take a few choice changes from one branch and apply them to another branch, you want to cherry-pick these commits and put them on your branch.Cherry picking is the act of picking a commit from a branch and applying it to another
+
+23.git commit --amend  -> What happens next is your latest commit being unrolled, the new changes from the Staging Area added to the existing one, and the editor for the commit message opening. In the editor you'll see the previous commit message.Feel free to change it to something better.
+
+24.git show HEAD -> After you're done, take another look at the latest commit with git show HEAD.
+
+25.git rebase origin/master -> what actually happens, is a rebase onto the HEAD of that branch.
+
+26.--force-with-lease -> will check if your local version of the remote branch and the actual remote match, before pushing.
+27.
+
