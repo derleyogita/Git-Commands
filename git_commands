@@ -7,8 +7,8 @@ Dev. environment
 Working Directory  +++   Stagging Area  +++   Local Area
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-if we use git add then file will be added to stagging area   --STagging
-After commit fill will be added to local area -- Local
+if we use git add then file will be added to stagging area   --Stagging
+After commit file will be added to local area -- Local
 
 -----------------------------------------------------------
 -----------------------------------------------------------
@@ -73,3 +73,14 @@ Git concepts
 
 29. git config --global user.email "MY_NAME@example.com" - Globally used mail ID (For all repositories we used same provided mail id)
 
+--------------------- Common Git Commands ------------------------
+
+1. git add . -> Used this command to add all the files in the current directory
+
+2. git commit -m --"Your commit message" -> Used this command to commit all stagged changes ,After commit files will be added to local area
+
+3. git push origin branch_name -> Push all local commits to your remote repository
+
+4. git reset --hard HEAD~1  -> It will get you back 1 commit.
+
+----------------------------------------------------------------
