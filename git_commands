@@ -66,5 +66,10 @@ Git concepts
 25.git rebase origin/master -> what actually happens, is a rebase onto the HEAD of that branch.
 
 26.--force-with-lease -> will check if your local version of the remote branch and the actual remote match, before pushing.
-27.
+
+27. git config user.email "MY_NAME@example.com" -- Go to project directory then use this commond so for this specific project we used mentioned email ID
+
+28. git config user.email -> Used to check emaild ID used by project folders
+
+29. git config --global user.email "MY_NAME@example.com" - Globally used mail ID (For all repositories we used same provided mail id)
 
