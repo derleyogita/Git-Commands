@@ -73,6 +73,8 @@ Git concepts
 
 29. git config --global user.email "MY_NAME@example.com" - Globally used mail ID (For all repositories we used same provided mail id)
 
+30. git config git config --global user.name "FIRST_NAME LAST_NAME" - Globally used git Username
+
 --------------------- Common Git Commands ------------------------
 
 1. git add . -> Used this command to add all the files in the current directory
