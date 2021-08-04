@@ -73,6 +73,8 @@ Git concepts
 
 29. git config --global user.email "MY_NAME@example.com" - Globally used mail ID (For all repositories we used same provided mail id)
 
+30. git remote add origin 'Remote repository name'
+
 --------------------- Common Git Commands ------------------------
 
 1. git add . -> Used this command to add all the files in the current directory
@@ -82,5 +84,9 @@ Git concepts
 3. git push origin branch_name -> Push all local commits to your remote repository
 
 4. git reset --hard HEAD~1  -> It will get you back 1 commit.
+
+5. git tag <tagname>  -> This will create a local tag with the current state of the branch you are on.
+
+6. git push origin --tags   -> Push tag to your remote repo. This will create a remote tag
 
 ----------------------------------------------------------------
