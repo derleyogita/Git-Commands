@@ -75,6 +75,9 @@ Git concepts
 
 30. git remote add origin 'Remote repository name'
 
+30. git config --global user.name "FIRST_NAME LAST_NAME" - Globally used git Username
+
+
 --------------------- Common Git Commands ------------------------
 
 1. git add . -> Used this command to add all the files in the current directory
