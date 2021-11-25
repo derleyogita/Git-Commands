@@ -15,19 +15,19 @@ After commit file will be added to local area -- Local
 Git concepts
 -----------------------------------------------------------
 
-1.git clone repo-name -> This command is used to clone git repositorie on your local machine.
+1.git clone repo-name -> This command is use to clone git repositorie on your local machine.
 
 2.git --version -> To check installed git version on your machine
 
-3.git diff --staged -> This command used to check changes we have staged
+3.git diff --staged -> This command use to check changes we have staged
 
 4.git log -> To check commits logs with their hash as well as Author and Date
 
 5.git diff <commit>^! ->where the ^! tells git to compare to the commit one before
 
-6.git diff <old commit> <new commit> -> Used to compare any two new commits
+6.git diff <old commit> <new commit> -> Use to compare any two new commits
 
-7.git checkout branch-name -> Used to checkout branch
+7.git checkout branch-name -> Use to checkout branch
 
 8.git branch -> Local branch list
 
@@ -69,7 +69,7 @@ Git concepts
 
 27. git config user.email "MY_NAME@example.com" -- Go to project directory then use this commond so for this specific project we used mentioned email ID
 
-28. git config user.email -> Used to check emaild ID used by project folders
+28. git config user.email -> Use to check emaild ID used by project folders
 
 29. git config --global user.email "MY_NAME@example.com" - Globally used mail ID (For all repositories we used same provided mail id)
 
@@ -84,9 +84,9 @@ Git concepts
 
 2. git remote add origin repo-url  ->  add remote 
 
-3. git add . -> Used this command to add all the files in the current directory
+3. git add . -> Use this command to add all the files in the current directory
 
-4. git commit -m --"Your commit message" -> Used this command to commit all stagged changes ,After commit files will be added to local area
+4. git commit -m --"Your commit message" -> Use this command to commit all stagged changes ,After commit files will be added to local area
 
 5. git push origin branch_name -> Push all local commits to your remote repository
 
